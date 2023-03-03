@@ -32,7 +32,7 @@ export const TrustedUs = () => {
     <Container>
       <div className="flex w-full flex-col items-center text-center font-second text-xl font-bold text-white">
         <p>
-          Zaufaj nam jak ponad <span className="text-yellow-500">500+</span> firm i osób prywatnych
+          Zaufaj nam jak ponad <span className="text-primary">500+</span> firm i osób prywatnych
         </p>
         <Carousel
           autoPlay

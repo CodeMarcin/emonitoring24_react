@@ -7,6 +7,9 @@ module.exports = {
         sans: "Nunito",
         second: "Jost",
       },
+      colors: {
+        primary: "#FDC705",
+      },
     },
   },
   plugins: [],
