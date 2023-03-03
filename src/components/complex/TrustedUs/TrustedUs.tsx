@@ -29,7 +29,7 @@ const responsive = {
 
 export const TrustedUs = () => {
   return (
-    <Container>
+    <Container additionalClassName="my-16">
       <div className="flex w-full flex-col items-center text-center font-second text-xl font-bold text-white">
         <p>
           Zaufaj nam jak ponad <span className="text-primary">500+</span> firm i osób prywatnych
