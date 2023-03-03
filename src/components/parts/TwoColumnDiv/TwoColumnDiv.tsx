@@ -5,9 +5,9 @@ export interface ITwoColumnDiv {
 
 export const TwoColumnDiv = ({ leftElement, rightElement }: ITwoColumnDiv) => {
   return (
-    <div className="flex w-full flex-col sm:flex-row gap-10 items-center">
-      {leftElement && <div className="w-full">{leftElement}</div>}
-      {rightElement && <div className="w-full">{rightElement}</div>}
+    <div className="flex w-full flex-col items-center gap-6 sm:flex-row">
+      {leftElement && <div className="relative w-full ">{leftElement}</div>}
+      {rightElement && <div className="relative w-full">{rightElement}</div>}
     </div>
   );
 };
