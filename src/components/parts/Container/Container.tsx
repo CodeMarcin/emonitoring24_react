@@ -4,5 +4,5 @@ export interface IContainer {
 }
 
 export const Container = ({ children, additionalClassName }: IContainer) => {
-  return <div className={`container mx-auto w-full max-w-5xl px-6 sm:px-0 ${additionalClassName ?? ""}`}>{children}</div>;
+  return <div className={`container mx-auto w-full max-w-4xl px-6  ${additionalClassName ?? ""}`}>{children}</div>;
 };
