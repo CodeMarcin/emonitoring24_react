@@ -1,7 +1,7 @@
 import { Container } from "../../parts/Container/Container";
 import { TwoColumnDiv } from "../../parts/TwoColumnDiv/TwoColumnDiv";
 import { AnimatedImageBlock } from "../../parts/AnimatedImageBlock/AnimatedImageBlock";
-const ELEMENT__LEFT = <img src="/img/faac.png" />;
+
 const ELEMENT__RIGHT = (
   <div className="flex flex-col gap-y-6">
     <p className="font-second text-4xl font-bold leading-normal text-white">

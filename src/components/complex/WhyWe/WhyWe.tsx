@@ -44,7 +44,7 @@ export const WhyWe = () => {
         <div className="absolute right-10 top-1/2 -z-10 -translate-y-1/2 rotate-12 opacity-10">
           <img src="/img/logo_600.png" />
         </div>
-        <Container additionalClassName="my-16">
+        <Container additionalClassName="mt-16">
           <div className="flex w-full flex-col gap-y-10 font-second">
             <p className="text-center font-second text-5xl font-bold text-white">
               Dlaczego <span className="text-primary">My</span>?
@@ -57,7 +57,7 @@ export const WhyWe = () => {
               {WHY_WE_ITEMS.map((el) => (
                 <div
                   key={el.id}
-                  className="group flex w-full flex-col gap-y-6 rounded-md hover:border-primary border-neutral-900 bg-neutral-900 p-5 text-neutral-400 transition-all  border-b-2 sm:w-[calc(50%-12px)]"
+                  className="group flex w-full flex-col gap-y-6 rounded-md border-b-2 border-neutral-900 bg-neutral-900 p-5 text-neutral-400 shadow-2xl transition-all  hover:border-primary sm:w-[calc(50%-12px)]"
                 >
                   <div className="w-fit rounded-md bg-neutral-800 p-4 transition-all group-hover:bg-primary group-hover:text-white">{el.icon}</div>
                   <p className="text-3xl font-semibold transition-all group-hover:text-white">{el.title}</p>
