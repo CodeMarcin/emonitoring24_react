@@ -12,7 +12,8 @@ const WHY_WE_ITEMS = [
     id: 1,
     icon: <SlSettings className={itemClassName} />,
     title: "Szeroki wachlarz usług",
-    description: "Lorem ipsum dolor sit amet, dolor sit lorem ipsum solor amet Lorem ipsum dolor sit amet, dolor sit lorem ipsum solor amet",
+    description:
+      "Jesteśmy prężnie działającą firmą w takich obszarach jak instalacje elektryczne, monitoring wizyjny, alarmy, domofony, automatyka do bram, kontrola dostępu czy systemy przeciwpożarowe.",
   },
   {
     id: 2,
@@ -44,7 +45,7 @@ export const WhyWe = () => {
         <div className="absolute right-10 top-1/2 -z-10 -translate-y-1/2 rotate-12 opacity-10">
           <img src="/img/logo_600.png" />
         </div>
-        <Container additionalClassName="mt-16">
+        <Container additionalClassName="my-16">
           <div className="flex w-full flex-col gap-y-10 font-second">
             <p className="text-center font-second text-5xl font-bold text-white">
               Dlaczego <span className="text-primary">My</span>?

@@ -16,9 +16,9 @@ const ELEMENT__RIGHT = (
   </div>
 );
 
-export const Naac = () => {
+export const Faac = () => {
   return (
-    <Container additionalClassName="mt-16">
+    <Container additionalClassName="my-16">
       <TwoColumnDiv leftElement={<AnimatedImageBlock image="/img/faac.png" />} rightElement={ELEMENT__RIGHT} />
     </Container>
   );
