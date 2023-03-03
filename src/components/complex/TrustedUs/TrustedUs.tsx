@@ -32,7 +32,7 @@ export const TrustedUs = () => {
     <Container>
       <div className="flex w-full flex-col items-center text-center font-second text-xl font-bold text-white">
         <p>
-          Zaufaj nam jak ponad <span className="text-yellow-500">500+</span> innych firm i osób prywatnych
+          Zaufaj nam jak ponad <span className="text-yellow-500">500+</span> firm i osób prywatnych
         </p>
         <Carousel
           autoPlay
@@ -50,10 +50,9 @@ export const TrustedUs = () => {
           itemClass="flex items-center justify-center"
         >
           {CAROUSEL_ITEMS.map((el) => (
-            <img key={el.id} className="h-fit brightness-0 invert" src={el.src} title={el.title} />
+            <img key={el.id} className="brightness-0 invert" src={el.src} title={el.title} />
           ))}
         </Carousel>
-        <div className="flex w-full flex-col items-center justify-around gap-y-10 sm:flex-row"></div>
       </div>
     </Container>
   );
