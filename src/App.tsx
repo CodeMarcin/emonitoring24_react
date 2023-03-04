@@ -4,6 +4,7 @@ import { TopBanner } from "./components/complex/TopBanner/TopBanner";
 import { TrustedUs } from "./components/complex/TrustedUs/TrustedUs";
 import { WhyWe } from "./components/complex/WhyWe/WhyWe";
 import { WhereWeWork } from "./components/complex/WhereWeWork/WhereWeWork";
+import { Offert } from "./components/complex/Offert/Offert";
 
 export const App = () => {
   return (
@@ -14,6 +15,7 @@ export const App = () => {
       <Faac />
       <AnimatedCount />
       <WhereWeWork />
+      <Offert />
     </>
   );
 };

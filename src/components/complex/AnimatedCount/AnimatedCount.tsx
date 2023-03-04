@@ -32,11 +32,11 @@ const COUNT_ITEMS = [
 export const AnimatedCount = () => {
   return (
     <Container additionalClassName="my-16">
-      <div className="flex flex-col justify-between gap-6 font-second sm:flex-row">
+      <div className="flex flex-col flex-wrap justify-between gap-6 font-second sm:flex-row">
         {COUNT_ITEMS.map((el) => (
           <div
             key={el.id}
-            className="group flex w-full flex-col gap-x-4 gap-y-4 rounded-md border-b-2  border-neutral-900 bg-neutral-900 p-5 text-neutral-400 shadow-2xl transition-all  hover:border-primary"
+            className="group flex flex-1 flex-col gap-x-4 gap-y-4 rounded-md border-b-2  border-neutral-900 bg-neutral-900 p-5 text-neutral-400 shadow-2xl transition-all  hover:border-primary"
           >
             <div className="flex items-center gap-x-4">
               <div className="w-fit rounded-md bg-neutral-800 p-4 transition-all group-hover:bg-primary group-hover:text-white">{el.icon}</div>
