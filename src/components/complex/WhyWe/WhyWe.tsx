@@ -46,7 +46,7 @@ export const WhyWe = () => {
           <img src="/img/logo_600.png" />
         </div>
         <Container additionalClassName="my-16">
-          <div className="flex w-full flex-col gap-y-10 font-second">
+          <div className="flex w-full flex-col gap-y-10">
             <p className="text-center font-second text-5xl font-bold text-white">
               Dlaczego <span className="text-primary">My</span>?
             </p>
@@ -54,15 +54,15 @@ export const WhyWe = () => {
               Posiadamy bogatą ofertę w której znajdują się <b>usługi elektryczne</b>, <b>montaż monitoringu wizyjnego</b>, <b>alarmów</b>, <b>domofonów</b>,
               <b> automatyki do bram</b> czy <b>systemów przeciwpożarowych</b>.
             </p>
-            <div className="flex flex-col flex-wrap justify-between gap-6  sm:flex-row">
+            <div className="flex flex-col flex-wrap justify-evenly gap-6 sm:flex-row ">
               {WHY_WE_ITEMS.map((el) => (
                 <div
                   key={el.id}
-                  className="group flex w-full flex-col gap-y-6 rounded-md border-b-2 border-neutral-900 bg-neutral-900 p-5 text-neutral-400 shadow-2xl transition-all  hover:border-primary sm:w-[calc(50%-12px)]"
+                  className="group flex  flex-col gap-y-6 rounded-md border-b-2 border-neutral-900 bg-neutral-900 p-5 text-neutral-400 shadow-2xl transition-all  hover:border-primary flex-auto sm:w-1/3 w-full  "
                 >
                   <div className="w-fit rounded-md bg-neutral-800 p-4 transition-all group-hover:bg-primary group-hover:text-white">{el.icon}</div>
-                  <p className="text-3xl font-semibold transition-all group-hover:text-white">{el.title}</p>
-                  <p className="text-lg leading-8 ">{el.description}</p>
+                  <p className="text-2xl font-semibold transition-all group-hover:text-white">{el.title}</p>
+                  <p className="leading-8 ">{el.description}</p>
                 </div>
               ))}
             </div>
